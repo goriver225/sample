@@ -1,0 +1,80 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Noto Serif JP';
+}
+
+span,h1{
+    color: #A10115;
+}
+
+header{
+    background-color: #FFFFFF66;
+    position: fixed;
+    width: 100%;
+    padding: 12px 0;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.first_view {
+    height: 100vh;
+    background-image: url('./TOP.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid #707070;
+}
+
+.first_view p {
+    font-size: 40px;
+    margin: 340px 0 346px 160px;
+}
+
+.contents {
+    background-color: #FAFAFA;
+    padding: 87px 0 262px 0;
+}
+
+.contents h2,
+.contents p {
+    text-align: center;
+}
+
+.contents h2{
+    margin-bottom: 130px;
+}
+
+.tokutyou {
+    padding: 83px 0 179px 0;
+}
+
+.tokutyou h2,
+.tokutyou h3,
+.tokutyou p {
+    text-align: center;
+}
+
+.tokutyou h2{
+    font-size: 32px;
+
+}
+
+.tokutyou h3{
+    margin-top: 44px;
+    font-size: 32px;
+}
+
+.tokutyou p {
+    margin-top: 13px;
+    font-size: 16px;
+}
